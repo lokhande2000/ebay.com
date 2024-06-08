@@ -58,7 +58,6 @@
             },
             "category": "laptop",
             "color": "gray",
-            "name": "Lenovo",
             "url": [
               "https://i.ebayimg.com/images/g/OB4AAOSwfU1kjPTS/s-l1600.webp",
               "https://i.ebayimg.com/images/g/T1IAAOSwb5VkjPTS/s-l960.webp",
@@ -75,7 +74,6 @@
           {
             "id": 30,
             "name": "Digital Night Vision PARD NV007S 850nm for Outdoor Hunting 4x-14x Magnification",
-            "name": "PARD",
             "model": "NV007S 850nm",
             "price": 499.0,
             "currency": "USD",
@@ -98,11 +96,7 @@
           {
             "id": "38",
             "name": "Nike Air Force 1 Low ID Jade Green Black Wood Grain",
-            "name": "Nike",
-            "price": {
-              "min": 49.99,
-              "max": 49.99
-            },
+            "price": 49.99,
             "shipping": 90.93,
             "condition": "Used",
             "category": "sneakers",

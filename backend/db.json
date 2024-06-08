@@ -80,10 +80,7 @@
     {
       "id": "5",
       "name": "Samsung Galaxy A13 5G SM-A136U Black 64GB Unlocked",
-      "price": {
-        "min": 69.0,
-        "max": 99.0
-      },
+      "price": 69.0,
       "shipping": 27.11,
       "condition": "Very Good - Refurbished",
       "rating": {
@@ -144,10 +141,7 @@
     {
       "id": "8",
       "name": "Samsung Galaxy S10e - 128GB 256GB Unlocked",
-      "price": {
-        "min": 99.95,
-        "max": 154.95
-      },
+      "price": 154.95,
       "shipping": 29.23,
       "condition": "Very Good - Refurbished",
       "category": "mobile",
@@ -788,10 +782,7 @@
       "id": "38",
       "name": "Nike Air Force 1 Low ID Jade Green Black Wood Grain",
       "brand": "Nike",
-      "price": {
-        "min": 49.99,
-        "max": 49.99
-      },
+      "price": 49.99,
       "shipping": 90.93,
       "condition": "Used",
       "category": "sneakers",
@@ -812,10 +803,7 @@
       "id": "39",
       "name": "Nike Air Force One By You Olive-White-Gum US 10.5",
       "brand": "Nike",
-      "price": {
-        "min": 39.99,
-        "max": 39.99
-      },
+      "price": 39.99,
       "shipping": 87.48,
       "condition": "Used",
       "category": "sneakers",
@@ -833,10 +821,7 @@
       "id": "40",
       "name": "Custom Air Force 1, Custom Glitter Air Force 1",
       "brand": "Nike",
-      "price": {
-        "min": 230.85,
-        "max": 240.35
-      },
+      "price": 230.85,
       "shipping": 95.6,
       "condition": "New",
       "category": "sneakers",
@@ -850,10 +835,7 @@
       "id": "41",
       "name": "Nike Air Force One By You Medium Grey-White-Taupe US 10.5",
       "brand": "Nike",
-      "price": {
-        "min": 39.99,
-        "max": 39.99
-      },
+      "price": 39.99,
       "shipping": 87.48,
       "condition": "Used",
       "category": "sneakers",
@@ -876,10 +858,7 @@
       "id": "42",
       "name": "Nike Air Force 1 '07 LV8 AF1 40th Anniversary Sail Malachite Limited",
       "brand": "Nike",
-      "price": {
-        "min": 219.0,
-        "max": 219.0
-      },
+      "price":  219.0,
       "shipping": 0,
       "condition": "New",
       "category": "sneakers",
@@ -897,10 +876,7 @@
       "id": "43",
       "name": "Nike Cactus Plant Flea Market x Air Force 1 Premium 2024 Low Black",
       "brand": "Nike",
-      "price": {
-        "min": 415.0,
-        "max": 415.0
-      },
+      "price": 415.0,
       "shipping": 0,
       "condition": "New",
       "category": "sneakers",
@@ -918,10 +894,7 @@
       "id": "44",
       "name": "Nike Air Force 1 Low SP x AMBUSH 'Phantom' DV3464-002 Men's Size 11.5",
       "brand": "Nike",
-      "price": {
-        "min": 139.95,
-        "max": 139.95
-      },
+      "price": 139.95,
       "shipping": 0,
       "condition": "New",
       "category": "sneakers",
@@ -940,10 +913,7 @@
       "id": "45",
       "name": "Nike Air Force 1 Low '07 White CW2288-111 Men's Size 7.5, 9 Women's",
       "brand": "Nike",
-      "price": {
-        "min": 79.99,
-        "max": 79.99
-      },
+      "price": 79.99,
       "shipping": 0,
       "condition": "Used",
       "category": "sneakers",
@@ -1888,10 +1858,7 @@
       "id": "38",
       "name": "Nike Air Force 1 Low ID Jade Green Black Wood Grain",
       "brand": "Nike",
-      "price": {
-        "min": 49.99,
-        "max": 49.99
-      },
+      "price": 49.99,
       "shipping": 90.93,
       "condition": "Used",
       "category": "sneakers",
