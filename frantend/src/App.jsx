@@ -4,6 +4,7 @@ import CustomCarosel from './Componentes/Carousels/CustomCarosel'
 import Navabar from './Componentes/Navabar/Navabar'
 import DeashBoard from './Pages/DeashBoard'
 import Home from './Pages/Home'
+import AllRouts from './Routs/AllRouts'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       {/* <UserRegistration/> */}
       {/* <HookForm/> */}
       <Navabar/>
-      <DeashBoard/>
+      <AllRouts/>
+      {/* <DeashBoard/> */}
       {/* <Carousel1/>
       <CustomCarosel/> */}
       {/* <Home/> */}

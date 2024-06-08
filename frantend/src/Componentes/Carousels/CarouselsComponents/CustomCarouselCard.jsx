@@ -1,12 +1,14 @@
 import { Box, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import LazyLoadingCard from "./LazyLoadingCard";
+import { useNavigate } from "react-router-dom";
 
 const CustomCarouselCard = ({ product }) => {
   const { id, name, price, url } = product;
+  const navigat = useNavigate()
 
   const handleClick = ()=>{
-    console.log("click", id)
+    navigat(`/productView/${id}`)
   }
 
   return (
