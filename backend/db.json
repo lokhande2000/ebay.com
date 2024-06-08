@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": "1",
+      "id": 1,
       "name": "New Motorola Moto G Stylus 5G 2022",
       "price": 113.99,
       "shipping": 28.02,
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Apple iPhone 11 64GB Factory Unlocked",
       "price": 209.95,
       "shipping": 31.59,
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Apple iPhone 11 Pro Max 256GB Unlocked",
       "price": 336.95,
       "shipping": 35.33,
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Boost Mobile Apple iPhone SE 3rd Gen 2022 64GB",
       "price": 159.88,
       "shipping": 29.38,
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Samsung Galaxy A13 5G SM-A136U Black 64GB Unlocked",
       "price": 69.0,
       "shipping": 27.11,
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "id": "6",
+      "id": 6,
       "name": "Celero 5G Plus 7” Screen 2024 Boost Mobile 256GB",
       "price": 199.99,
       "shipping": 31.29,
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "id": "7",
+      "id": 7,
       "name": "Samsung Galaxy S21 5G - 128GB Fully Unlocked",
       "price": 209.99,
       "shipping": 30.86,
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "id": "8",
+      "id": 8,
       "name": "Samsung Galaxy S10e - 128GB 256GB Unlocked",
       "price": 154.95,
       "shipping": 29.23,
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "10",
+      "id": 10,
       "name": "Apple iPhone 13 128GB Unlocked",
       "price": 374.95,
       "shipping": 35.72,
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "id": "11",
+      "id": 11,
       "name": "Samsung Galaxy A53 5G SM-A536U - 128GB Black (Unlocked) Brand New Sealed",
       "price": 209.99,
       "shipping": 30.86,
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "id": "12",
+      "id": 12,
       "name": "NEW Samsung Galaxy Note 8 SM-N950U 64GB GSM Unlocked AT&T T-Mobile",
       "price": 219.88,
       "shipping": 31.88,
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "id": "13",
+      "id": 13,
       "name": "Boost Mobile Apple iPhone 11 6.1\" 64GB Prepaid Smartphone White",
       "price": 194.95,
       "shipping": 31.14,
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "id": "14",
+      "id": 14,
       "name": "Nuu Mobile B30 Pro 5G",
       "price": 179.99,
       "shipping": 30.7,
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "id": "15",
+      "id": 15,
       "name": "ZTE Blade A54 factory unlocked 4G LTE Android 128GB/4RAM Cell Phone Gray",
       "price": 87.97,
       "shipping": 27.26,
@@ -265,7 +265,7 @@
       ]
     },
     {
-      "id": "16",
+      "id": 16,
       "name": "New Nuu Mobile B30 Pro 5G OLED 120Hz 12GB RAM 256GB Storages Smart Phone",
       "price": 230.0,
       "shipping": 34.4,
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "id": "17",
+      "id": 17,
       "name": "Samsung Note 20 5G - SM-N981U - T-Mobile/Verizon/AT&T Or Unlocked",
       "price": 193.99,
       "shipping": 30.38,
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "id": "18",
+      "id": 18,
       "name": "HP Chromebook 14 G5 14\" Laptop Celeron N3350 4GB 32GB",
       "price": 64.99,
       "shipping": 0.0,
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "id": "19",
+      "id": 19,
       "name": "Microsoft Surface Pro 4 128GB i5 4GB RAM Windows 10 Pro 12.3\" Silver",
       "price": 97.99,
       "shipping": 0.0,
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "id": "20",
+      "id": 20,
       "name": "HP EliteBook 840 G3 Laptop 14\" i5-6200U 2.3GHz 8GB 256GB SSD Win 10",
       "price": 81.99,
       "shipping": 0.0,
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "id": "21",
+      "id": 21,
       "name": "Lenovo IdeaPad 3 15.6 Laptop, Intel Core i3-1215U, 8GB, 256GB SSD",
       "price": 320,
       "shipping": 0.0,
@@ -389,7 +389,7 @@
       ]
     },
     {
-      "id": "22",
+      "id": 22,
       "name": "Acer Aspire 5 - 15.6 Laptop AMD Ryzen 5 5625U 2.30GHz 8GB RAM 512GB SSD W11H",
       "price": 399.99,
       "shipping": 0.0,
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "id": "23",
+      "id": 23,
       "name": "HP 15-DW0083WM 15.6'' (128GB SSD Intel Pentium Silver N5030 1.1GHz 4GB RAM)",
       "price": 200.0,
       "shipping": 0.0,
@@ -429,7 +429,7 @@
       ]
     },
     {
-      "id": "24",
+      "id": 24,
       "name": "Dell Latitude 7400 2 in 1 Touch i5-8365U 1.6GHz 16GB RAM 256GB M.2 Win 10 Pro",
       "price": 239.99,
       "shipping": 1.0,
@@ -454,7 +454,7 @@
       ]
     },
     {
-      "id": "25",
+      "id": 25,
       "name": "Lenovo ThinkPad 15 15.6” FHD Laptop Core i5 10th 8GB RAM 512GB SSD Windows 11",
       "price": 224.99,
       "shipping": 0.0,
@@ -480,7 +480,7 @@
       ]
     },
     {
-      "id": "26",
+      "id": 26,
       "name": "Acer Aspire 3 15.6 Laptop Intel Core i3-1115G4 3 GHz 8 GB RAM 256GB SSD W11H S",
       "price": 219.99,
       "shipping": 0.0,
@@ -500,7 +500,7 @@
       ]
     },
     {
-      "id": "27",
+      "id": 27,
       "name": "HP Laptop 15.6 FHD Quad-core Intel i5 16gb RAM 480gb SSD window 11 CLEARANCE",
       "price": 349.99,
       "shipping": 0.0,
@@ -521,7 +521,7 @@
       ]
     },
     {
-      "id": "28",
+      "id": 28,
       "name": "HP 17.3-inch HD+ Touchscreen 256GB SSD Ryzen 3 Laptop 8GB RAM Win11 17-cp0056nr",
       "price": 246.9,
       "shipping": 0.0,
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "id": "29",
+      "id": 29,
       "name": "Acer Nitro 5 - 15.6 Laptop Intel Core i5-12450H 2.0GHz 16GB RAM 512GB SSD W11H",
       "price": 599.99,
       "shipping": 0.0,
@@ -672,7 +672,7 @@
       "id": 34,
       "name": "Nikon D3400 24.2 MP Digital SLR Camera / 50MM 1.8 G",
       "brand": "Nikon",
-      "category":"camera",
+      "category": "camera",
       "price": 275.0,
       "currency": "USD",
       "condition": "Pre-Owned",
@@ -695,7 +695,7 @@
       "id": 35,
       "name": "Nikon D810 36.3MP DSLR Camera 40,624 Shutter Count1",
       "brand": "Nikon",
-      "category":"camera",
+      "category": "camera",
       "price": 599.99,
       "currency": "USD",
       "condition": "Pre-Owned",
@@ -725,7 +725,7 @@
       "id": 36,
       "name": "Ricoh GR DIGITAL III 3 Compact Digital Camera w/Charger,Battery",
       "brand": "Ricoh",
-      "category":"camera",
+      "category": "camera",
       "price": 436.99,
       "currency": "USD",
       "condition": "Excellent",
@@ -752,7 +752,7 @@
       "id": 37,
       "name": "Sony Cyber Shot DSC-WX200 Digital Camera - Tested FH18612850",
       "brand": "Sony",
-      "category":"camera",
+      "category": "camera",
       "price": 60.0,
       "currency": "USD",
       "condition": "Tested",
@@ -779,7 +779,7 @@
       }
     },
     {
-      "id": "38",
+      "id": 38,
       "name": "Nike Air Force 1 Low ID Jade Green Black Wood Grain",
       "brand": "Nike",
       "price": 49.99,
@@ -800,7 +800,7 @@
       ]
     },
     {
-      "id": "39",
+      "id": 39,
       "name": "Nike Air Force One By You Olive-White-Gum US 10.5",
       "brand": "Nike",
       "price": 39.99,
@@ -818,7 +818,7 @@
       ]
     },
     {
-      "id": "40",
+      "id": 40,
       "name": "Custom Air Force 1, Custom Glitter Air Force 1",
       "brand": "Nike",
       "price": 230.85,
@@ -832,7 +832,7 @@
       ]
     },
     {
-      "id": "41",
+      "id": 41,
       "name": "Nike Air Force One By You Medium Grey-White-Taupe US 10.5",
       "brand": "Nike",
       "price": 39.99,
@@ -855,10 +855,10 @@
       ]
     },
     {
-      "id": "42",
+      "id": 42,
       "name": "Nike Air Force 1 '07 LV8 AF1 40th Anniversary Sail Malachite Limited",
       "brand": "Nike",
-      "price":  219.0,
+      "price": 219.0,
       "shipping": 0,
       "condition": "New",
       "category": "sneakers",
@@ -873,7 +873,7 @@
       ]
     },
     {
-      "id": "43",
+      "id": 43,
       "name": "Nike Cactus Plant Flea Market x Air Force 1 Premium 2024 Low Black",
       "brand": "Nike",
       "price": 415.0,
@@ -891,7 +891,7 @@
       ]
     },
     {
-      "id": "44",
+      "id": 44,
       "name": "Nike Air Force 1 Low SP x AMBUSH 'Phantom' DV3464-002 Men's Size 11.5",
       "brand": "Nike",
       "price": 139.95,
@@ -910,7 +910,7 @@
       ]
     },
     {
-      "id": "45",
+      "id": 45,
       "name": "Nike Air Force 1 Low '07 White CW2288-111 Men's Size 7.5, 9 Women's",
       "brand": "Nike",
       "price": 79.99,
@@ -1126,7 +1126,7 @@
       "condition": "New",
       "shipping": "$78.55 shipping",
       "watchers": 0,
-      "category":"man",
+      "category": "man",
       "url": [
         "https://i.ebayimg.com/images/g/gtgAAOSwADhmW1Zk/s-l1600.webp",
         "https://i.ebayimg.com/images/g/wJgAAOSwrHFmW1Zk/s-l1600.webp",
@@ -1153,7 +1153,7 @@
       "condition": "New",
       "shipping": "$78.55 shipping",
       "watchers": 19,
-      "category":"man",
+      "category": "man",
       "url": [
         "https://i.ebayimg.com/images/g/5cEAAOSwzMFk04Zu/s-l1600.webp",
         "https://i.ebayimg.com/images/g/1D4AAOSwzBBk04Zv/s-l1600.webp",
@@ -1198,7 +1198,7 @@
       "condition": "New",
       "shipping": "$78.55 shipping",
       "watchers": 22,
-      "category":"man",
+      "category": "man",
       "url": [
         "https://i.ebayimg.com/images/g/rzwAAOSwxo5k04cM/s-l1600.webp",
         "https://i.ebayimg.com/images/g/rUwAAOSwxZhk04cM/s-l1600.webp",
@@ -1220,7 +1220,7 @@
       "condition": "New",
       "shipping": "$83.62 shipping",
       "watchers": 0,
-      "category":"man",
+      "category": "man",
       "url": [
         "https://i.ebayimg.com/images/g/aAwAAOSwvm5k7Opi/s-l1600.webp",
         "https://i.ebayimg.com/images/g/e3oAAOSwI2lk7Opi/s-l1600.webp",
@@ -1244,7 +1244,7 @@
       "condition": "New",
       "shipping": "$78.55 shipping",
       "watchers": 0,
-      "category":"man",
+      "category": "man",
       "url": [
         "https://i.ebayimg.com/images/g/8zEAAOSwmStk04Wf/s-l1600.webp",
         "https://i.ebayimg.com/images/g/C64AAOSw7Hhk04Wg/s-l1600.webp",
@@ -1266,7 +1266,7 @@
       "condition": "New",
       "shipping": "$73.13 shipping",
       "watchers": 0,
-      "category":"man",
+      "category": "man",
       "url": [
         "https://i.ebayimg.com/images/g/Eu8AAOSwXkNaaLrh/s-l1600.webp",
         "https://i.ebayimg.com/images/g/j3EAAOSwtKVaaLrh/s-l1600.webp",
@@ -1288,7 +1288,7 @@
       "condition": "New",
       "shipping": "Free shipping",
       "watchers": 0,
-      "category":"man",
+      "category": "man",
       "url": [
         "https://i.ebayimg.com/images/g/GegAAOSwKmphf5UV/s-l960.webp",
         "https://i.ebayimg.com/images/g/cLMAAOSwh0thf5Tz/s-l960.webp",
@@ -1315,7 +1315,7 @@
       "condition": "New",
       "shipping": "Free shipping",
       "watchers": 0,
-      "category":"man",
+      "category": "man",
       "url": [
         "https://i.ebayimg.com/images/g/GDQAAOSwWXNhnGjs/s-l1600.webp",
         "https://i.ebayimg.com/images/g/jXoAAOSw4Z5hnGjr/s-l1600.webp",
@@ -1342,7 +1342,7 @@
       "condition": "New",
       "shipping": "Free shipping",
       "watchers": 15,
-      "category":"man",
+      "category": "man",
       "url": [
         "https://i.ebayimg.com/images/g/5EgAAOSwOsFhf5U7/s-l1600.webp",
         "https://i.ebayimg.com/images/g/lO8AAOSw8HBhf5VS/s-l1600.webp",
@@ -1370,7 +1370,7 @@
       "condition": "New",
       "shipping": "$5.00 shipping",
       "watchers": 0,
-      "category":"women",
+      "category": "women",
       "url": [
         "https://i.ebayimg.com/thumbs/images/g/GDQAAOSwWXNhnGjs/s-l500.jpg",
         "https://i.ebayimg.com/images/g/jXoAAOSw4Z5hnGjr/s-l1600.webp",
@@ -1395,7 +1395,7 @@
       "condition": "New",
       "shipping": "$5.00 shipping",
       "watchers": 0,
-      "category":"women",
+      "category": "women",
       "url": [
         "https://i.ebayimg.com/images/g/pisAAOSwaZNkcFty/s-l1600.webp",
         "https://i.ebayimg.com/images/g/zgMAAOSw0ElkcFt0/s-l1600.webp",
@@ -1420,7 +1420,7 @@
       "condition": "New",
       "shipping": "Free shipping",
       "watchers": 0,
-      "category":"women",
+      "category": "women",
       "url": [
         "https://i.ebayimg.com/images/g/KCAAAOSw5VhlIl3Y/s-l1600.webp",
         "https://i.ebayimg.com/images/g/xRMAAOSwx-1lIl3A/s-l1600.webp",
@@ -1443,7 +1443,7 @@
       "condition": "New",
       "shipping": "Free shipping",
       "watchers": 35,
-      "category":"women",
+      "category": "women",
       "url": [
         "https://i.ebayimg.com/images/g/RUIAAOSw07dhZ5DL/s-l960.webp",
         "https://i.ebayimg.com/images/g/4i8AAOSwlQ5hZ5EN/s-l960.webp",
@@ -1470,7 +1470,7 @@
       "condition": "New",
       "shipping": "$1.88 shipping",
       "watchers": 0,
-      "category":"women",
+      "category": "women",
       "url": [
         "https://i.ebayimg.com/images/g/D4oAAOSwtdNmORjc/s-l1600.webp",
         "https://i.ebayimg.com/images/g/uQEAAOSwGJ5mORjd/s-l1600.webp",
@@ -1499,7 +1499,7 @@
       "condition": "New",
       "shipping": "Free shipping",
       "watchers": 0,
-      "category":"women",
+      "category": "women",
       "url": [
         "https://i.ebayimg.com/images/g/518AAOSwHkdjT2el/s-l1600.webp",
         "https://i.ebayimg.com/images/g/5~8AAOSwux5jT2ep/s-l1600.webp",
@@ -1526,7 +1526,7 @@
       "condition": "New",
       "shipping": "Free shipping",
       "watchers": 0,
-      "category":"women",
+      "category": "women",
       "url": [
         "https://i.ebayimg.com/images/g/PnIAAOSw1~ZjRpJg/s-l1600.webp",
         "https://i.ebayimg.com/images/g/uv4AAOSwBBJjRpJj/s-l1600.webp",
@@ -1555,7 +1555,7 @@
       "condition": "New",
       "shipping": "Free shipping",
       "watchers": 0,
-      "category":"women",
+      "category": "women",
       "url": [
         "https://i.ebayimg.com/images/g/0LIAAOSwrX5kHnCu/s-l960.webp",
         "https://i.ebayimg.com/images/g/LFIAAOSwAthkGCnp/s-l960.webp",
@@ -1581,7 +1581,7 @@
       "condition": "New",
       "shipping": "Free shipping",
       "watchers": 0,
-      "category":"women",
+      "category": "women",
       "url": [
         "https://i.ebayimg.com/images/g/1igAAOSwonZkeFO6/s-l1600.webp",
         "https://i.ebayimg.com/images/g/h74AAOSwmrtkeFO7/s-l1600.webp",
@@ -1759,7 +1759,7 @@
   ],
   "recentlyViewedItems": [
     {
-      "id": "1",
+      "id": 1,
       "name": "New Motorola Moto G Stylus 5G 2022",
       "price": 113.99,
       "shipping": 28.02,
@@ -1806,7 +1806,7 @@
       }
     },
     {
-      "id": "21",
+      "id": 21,
       "name": "Lenovo IdeaPad 3 15.6 Laptop, Intel Core i3-1215U, 8GB, 256GB SSD",
       "price": 320,
       "shipping": 0.0,
@@ -1855,7 +1855,7 @@
       }
     },
     {
-      "id": "38",
+      "id": 38,
       "name": "Nike Air Force 1 Low ID Jade Green Black Wood Grain",
       "brand": "Nike",
       "price": 49.99,

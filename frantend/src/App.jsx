@@ -12,10 +12,10 @@ function App() {
       {/* <UserRegistration/> */}
       {/* <HookForm/> */}
       <Navabar/>
-      <CustomCarosel/>
-      {/* <DeashBoard/> */}
+      <DeashBoard/>
+      {/* <Carousel1/>
+      <CustomCarosel/> */}
       {/* <Home/> */}
-      {/* <Carousel1/> */}
     </div>
   )
 }
