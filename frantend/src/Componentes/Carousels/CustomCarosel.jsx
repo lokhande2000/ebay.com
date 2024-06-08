@@ -1,11 +1,14 @@
 import React, { useRef, useState, useEffect } from "react";
+import axios from "axios";
 import { Box, Flex, Button } from "@chakra-ui/react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
+import CustomCarouselCard from "./CarouselsComponents/CustomCarouselCard";
 
 const CustomCarousel = () => {
   const carouselRef = useRef(null);
   const [isLeftButtonDisabled, setIsLeftButtonDisabled] = useState(true);
   const [isRightButtonDisabled, setIsRightButtonDisabled] = useState(false);
+  const [ resentView, setResentView ] = useState([])
 
   const scroll = (scrollOffset) => {
     if (carouselRef.current) {
@@ -22,7 +25,19 @@ const CustomCarousel = () => {
     }
   };
 
+  async function fetchData() {
+    try {
+      let res = await axios.get("https://ebay-com.onrender.com/recentlyViewedItems")
+      setResentView(res.data)
+    } catch (error) {
+      console.log(error);
+      
+    }
+  }
+
   useEffect(() => {
+    fetchData()
+
     updateButtonState();
     // Attach the scroll event listener to update button states on scroll
     if (carouselRef.current) {
@@ -88,20 +103,14 @@ const CustomCarousel = () => {
         }}
       >
         <Flex
-          w="400%"
+          // w="200%"
+          w={{base: "500%", md:"400%",lg:"200%"}}
           h="calc(100% - 8px)" // Adjust height to avoid scrollbar overlay
           position="relative"
+          transition='all 0.5s ease-in-out '
         >
-          {Array.from({ length: 10 }).map((_, index) => (
-            <Box
-              key={index}
-              w={{base: "50%", md:"40%",lg:"5%"}}
-              h="100%"
-              bg={`hsl(${(index * 36) % 360}, 70%, 50%)`}
-              transition="height 0.3s ease"
-            >
-              Div {index + 1}
-            </Box>
+          {resentView.map((ele) => (
+           <CustomCarouselCard key={ele.id} product={ele} />
           ))}
         </Flex>
       </Box>

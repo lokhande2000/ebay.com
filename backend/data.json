@@ -22,7 +22,7 @@
           },
           {
             "id": 61,
-            "brand": "Women's",
+            "name": "Women's",
             "model": "Women Winter Lapel Coat Punk Faux Leather Outwear Moto Biker Jacket Solid Tops",
             "price": 81.89,
             "currency": "USD",
@@ -58,7 +58,7 @@
             },
             "category": "laptop",
             "color": "gray",
-            "brand": "Lenovo",
+            "name": "Lenovo",
             "url": [
               "https://i.ebayimg.com/images/g/OB4AAOSwfU1kjPTS/s-l1600.webp",
               "https://i.ebayimg.com/images/g/T1IAAOSwb5VkjPTS/s-l960.webp",
@@ -75,7 +75,7 @@
           {
             "id": 30,
             "name": "Digital Night Vision PARD NV007S 850nm for Outdoor Hunting 4x-14x Magnification",
-            "brand": "PARD",
+            "name": "PARD",
             "model": "NV007S 850nm",
             "price": 499.0,
             "currency": "USD",
@@ -98,7 +98,7 @@
           {
             "id": "38",
             "name": "Nike Air Force 1 Low ID Jade Green Black Wood Grain",
-            "brand": "Nike",
+            "name": "Nike",
             "price": {
               "min": 49.99,
               "max": 49.99
@@ -121,7 +121,7 @@
           },
           {
             "id": 55,
-            "brand": "Raphael",
+            "name": "Raphael",
             "model": "Men's Gray Regular Classic Fit Wool-touch Two Button Two Piece Suit",
             "price": 159.0,
             "currency": "USD",
@@ -144,7 +144,7 @@
           },
           {
             "id": 70,
-            "brand": "Women's",
+            "name": "Women's",
             "model": "Fairy Floral Midi Dress Women Evening Party Dress Casual Elegant One Piece Dress",
             "price": 45.24,
             "currency": "USD",
@@ -172,7 +172,7 @@
           },
           {
             "id": 71,
-            "brand": "Women's",
+            "name": "Women's",
             "model": "Chiffon Long Elegant Floral Midi Dress Sleeve Party Dress Woman Fairy Dress",
             "price": 28.9,
             "currency": "USD",
@@ -197,7 +197,7 @@
           },
           {
             "id": 72,
-            "brand": "Women's",
+            "name": "Women's",
             "model": "Elegant Casual Party Fairy Dress Women French Vintage Floral Midi Dress Women",
             "price": 36.04,
             "currency": "USD",
@@ -220,7 +220,7 @@
           },
           {
             "id": 73,
-            "brand": "Women's",
+            "name": "Women's",
             "model": "Vintage Floral Women Elegant Casual Party Prom Holiday Princess Fairy Long Dress",
             "price": 13.14,
             "currency": "USD",
