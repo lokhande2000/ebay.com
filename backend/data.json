@@ -1,0 +1,248 @@
+{
+    "data":[
+        {
+            "id": "1",
+            "name": "New Motorola Moto G Stylus 5G 2022",
+            "price": 113.99,
+            "shipping": 28.02,
+            "condition": "Open Box",
+            "rating": {
+              "stars": 4,
+              "reviews": 32
+            },
+            "availability": "Last one",
+            "category": "mobile",
+            "color": "black",
+            "url": [
+              "https://i.ebayimg.com/images/g/zxkAAOSwDIdlHY0l/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/TMQAAOSwjedlHY0l/s-l960.webp",
+              "https://i.ebayimg.com/images/g/kI8AAOSwI3tlHY0l/s-l960.webp",
+              "https://i.ebayimg.com/images/g/Ns8AAOSwya1lHY0l/s-l960.webp"
+            ]
+          },
+          {
+            "id": 61,
+            "brand": "Women's",
+            "model": "Women Winter Lapel Coat Punk Faux Leather Outwear Moto Biker Jacket Solid Tops",
+            "price": 81.89,
+            "currency": "USD",
+            "condition": "New",
+            "shipping": "Free shipping",
+            "watchers": 0,
+            "url": [
+              "https://i.ebayimg.com/images/g/GegAAOSwKmphf5UV/s-l960.webp",
+              "https://i.ebayimg.com/images/g/cLMAAOSwh0thf5Tz/s-l960.webp",
+              "https://i.ebayimg.com/images/g/xpgAAOSw6V1hf5UZ/s-l960.webp",
+              "https://i.ebayimg.com/images/g/49kAAOSwRKJhf5UR/s-l960.webp",
+              "https://i.ebayimg.com/images/g/GegAAOSwKmphf5UV/s-l960.webp",
+              "https://i.ebayimg.com/images/g/cLMAAOSwh0thf5Tz/s-l960.webp",
+              "https://i.ebayimg.com/images/g/xpgAAOSw6V1hf5UZ/s-l960.webp",
+              "https://i.ebayimg.com/images/g/49kAAOSwRKJhf5UR/s-l960.webp",
+              "https://i.ebayimg.com/images/g/xpgAAOSw6V1hf5UZ/s-l960.webp",
+              "https://i.ebayimg.com/images/g/49kAAOSwRKJhf5UR/s-l960.webp"
+            ],
+            "rating": {
+              "stars": 4.5,
+              "reviews": 150
+            }
+          },
+          {
+            "id": "21",
+            "name": "Lenovo IdeaPad 3 15.6 Laptop, Intel Core i3-1215U, 8GB, 256GB SSD",
+            "price": 320,
+            "shipping": 0.0,
+            "condition": "Used",
+            "rating": {
+              "stars": 4.3,
+              "reviews": 220
+            },
+            "category": "laptop",
+            "color": "gray",
+            "brand": "Lenovo",
+            "url": [
+              "https://i.ebayimg.com/images/g/OB4AAOSwfU1kjPTS/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/T1IAAOSwb5VkjPTS/s-l960.webp",
+              "https://i.ebayimg.com/images/g/V08AAOSwyGFkjPTT/s-l960.webp",
+              "https://i.ebayimg.com/images/g/ToYAAOSwxhtkjPTU/s-l960.webp",
+              "https://i.ebayimg.com/images/g/pEQAAOSw-WRkjPTU/s-l960.webp",
+              "https://i.ebayimg.com/images/g/loMAAOSwzblkjPTV/s-l960.webp",
+              "https://i.ebayimg.com/images/g/7hIAAOSwndhkjPTW/s-l960.webp",
+              "https://i.ebayimg.com/images/g/CWIAAOSwvv1kjPTX/s-l960.webp",
+              "https://i.ebayimg.com/images/g/zmoAAOSwJnhktCZl/s-l960.webp",
+              "https://i.ebayimg.com/images/g/AQkAAOSwsHpktCZu/s-l960.webp"
+            ]
+          },
+          {
+            "id": 30,
+            "name": "Digital Night Vision PARD NV007S 850nm for Outdoor Hunting 4x-14x Magnification",
+            "brand": "PARD",
+            "model": "NV007S 850nm",
+            "price": 499.0,
+            "currency": "USD",
+            "condition": "Brand New",
+            "shipping": "Free International Shipping from China",
+            "notes": "Digital Night Vision for Outdoor Hunting 4x-14x Magnification",
+            "availability": "Last one",
+            "url": [
+              "https://i.ebayimg.com/images/g/218AAOSwp1dl-Um8/s-l960.webp",
+              "https://i.ebayimg.com/images/g/PuUAAOSwevVl-Um7/s-l960.webp",
+              "https://i.ebayimg.com/images/g/zLQAAOSwxQZl-Uns/s-l960.webp",
+              "https://i.ebayimg.com/images/g/Mw0AAOSwqV9l-Una/s-l960.webp",
+              "https://i.ebayimg.com/images/g/230AAOSwdLRmSFtz/s-l960.webp"
+            ],
+            "rating": {
+              "stars": 4.2,
+              "reviews": 180
+            }
+          },
+          {
+            "id": "38",
+            "name": "Nike Air Force 1 Low ID Jade Green Black Wood Grain",
+            "brand": "Nike",
+            "price": {
+              "min": 49.99,
+              "max": 49.99
+            },
+            "shipping": 90.93,
+            "condition": "Used",
+            "category": "sneakers",
+            "color": "Jade Green Black",
+            "url": [
+              "https://i.ebayimg.com/images/g/Q3gAAOSw2sxmAGcK/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/8AEAAOSwXH5mAGcL/s-l960.webp",
+              "https://i.ebayimg.com/images/g/pHUAAOSwYupmAGcL/s-l960.webp",
+              "https://i.ebayimg.com/images/g/ImgAAOSw4tBmAGcM/s-l960.webp",
+              "https://i.ebayimg.com/images/g/5ZQAAOSwe59mAGcN/s-l960.webp",
+              "https://i.ebayimg.com/images/g/JZEAAOSw-fZmAGcO/s-l960.webp",
+              "https://i.ebayimg.com/images/g/07sAAOSw0qRmAGcP/s-l960.webp",
+              "https://i.ebayimg.com/images/g/FnEAAOSw8gRmAGcQ/s-l960.webp",
+              "https://i.ebayimg.com/images/g/1BgAAOSwKrNmAGcR/s-l960.webp"
+            ]
+          },
+          {
+            "id": 55,
+            "brand": "Raphael",
+            "model": "Men's Gray Regular Classic Fit Wool-touch Two Button Two Piece Suit",
+            "price": 159.0,
+            "currency": "USD",
+            "condition": "New",
+            "shipping": "$78.55 shipping",
+            "watchers": 19,
+            "url": [
+              "https://i.ebayimg.com/images/g/5cEAAOSwzMFk04Zu/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/1D4AAOSwzBBk04Zv/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/M5kAAOSwy7tk04Zv/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/iggAAOSwdWtk04Zv/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/l~0AAOSwpjNk04Zu/s-l1600.webp",
+              "https://cdn.shopify.com/s/files/1/0506/3196/6902/products/raphael-suits-raphael-men-s-regular-classic-fit-light-gray-textured-two-button-2-piece-suit-31848696086710.jpg?v=1690765455",
+              "https://cdn.shopify.com/s/files/1/0506/3196/6902/products/raphael-suits-raphael-men-s-regular-classic-fit-light-gray-textured-two-button-2-piece-suit-31848696086710.jpg?v=1690765455"
+            ],
+            "rating": {
+              "stars": 4.2,
+              "reviews": 180
+            }
+          },
+          {
+            "id": 70,
+            "brand": "Women's",
+            "model": "Fairy Floral Midi Dress Women Evening Party Dress Casual Elegant One Piece Dress",
+            "price": 45.24,
+            "currency": "USD",
+            "condition": "New",
+            "shipping": "Free shipping",
+            "watchers": 0,
+            "url": [
+              "https://i.ebayimg.com/images/g/PnIAAOSw1~ZjRpJg/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/uv4AAOSwBBJjRpJj/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/5CIAAOSwjtVjRpJk/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/xr8AAOSw3Q9jRpJl/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/I9EAAOSw3c1jRpJl/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/5CIAAOSwjtVjRpJk/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/xr8AAOSw3Q9jRpJl/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/I9EAAOSw3c1jRpJl/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/5CIAAOSwjtVjRpJk/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/xr8AAOSw3Q9jRpJl/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/I9EAAOSw3c1jRpJl/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/yQ4AAOSwMNhjRpJm/s-l1600.webp"
+            ],
+            "rating": {
+              "stars": 4.0,
+              "reviews": 60
+            }
+          },
+          {
+            "id": 71,
+            "brand": "Women's",
+            "model": "Chiffon Long Elegant Floral Midi Dress Sleeve Party Dress Woman Fairy Dress",
+            "price": 28.9,
+            "currency": "USD",
+            "condition": "New",
+            "shipping": "Free shipping",
+            "watchers": 0,
+            "url": [
+              "https://i.ebayimg.com/images/g/0LIAAOSwrX5kHnCu/s-l960.webp",
+              "https://i.ebayimg.com/images/g/LFIAAOSwAthkGCnp/s-l960.webp",
+              "https://i.ebayimg.com/images/g/ZcIAAOSwgx9kGCnz/s-l960.webp",
+              "https://i.ebayimg.com/images/g/WBgAAOSwQF9kGCn8/s-l960.webp",
+              "https://i.ebayimg.com/images/g/QwkAAOSwyPNkGCoG/s-l960.webp",
+              "https://i.ebayimg.com/images/g/qakAAOSwyWlkGCou/s-l960.webp",
+              "https://i.ebayimg.com/images/g/yQMAAOSwERhkGCo4/s-l960.webp",
+              "https://i.ebayimg.com/images/g/d-sAAOSw1aBkGCpD/s-l960.webp",
+              "https://i.ebayimg.com/images/g/8B0AAOSw0OpkGCph/s-l960.webp"
+            ],
+            "rating": {
+              "stars": 4.0,
+              "reviews": 60
+            }
+          },
+          {
+            "id": 72,
+            "brand": "Women's",
+            "model": "Elegant Casual Party Fairy Dress Women French Vintage Floral Midi Dress Women",
+            "price": 36.04,
+            "currency": "USD",
+            "condition": "New",
+            "shipping": "Free shipping",
+            "watchers": 0,
+            "url": [
+              "https://i.ebayimg.com/images/g/1igAAOSwonZkeFO6/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/h74AAOSwmrtkeFO7/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/NjcAAOSwCBFkeFO8/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/kFQAAOSwy99keFO~/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/~DUAAOSwB01keFPB/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/IKUAAOSwwnZkeFPC/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/ZF8AAOSwk6hkeFPI/s-l1600.webp"
+            ],
+            "rating": {
+              "stars": 4.0,
+              "reviews": 60
+            }
+          },
+          {
+            "id": 73,
+            "brand": "Women's",
+            "model": "Vintage Floral Women Elegant Casual Party Prom Holiday Princess Fairy Long Dress",
+            "price": 13.14,
+            "currency": "USD",
+            "condition": "New",
+            "shipping": "Free shipping",
+            "watchers": 0,
+            "url": [
+              "https://i.ebayimg.com/images/g/u1wAAOSwhftknpYM/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/JLQAAOSwkSVknpYS/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/cn0AAOSw~PZknpYX/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/i1QAAOSwzQ9knpYd/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/u2QAAOSwe0BknpYj/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/PvoAAOSwQopknpYp/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/Y8oAAOSwNM9knpY-/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/26sAAOSwliNknpZD/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/rqYAAOSwZR1knpZJ/s-l1600.webp",
+              "https://i.ebayimg.com/images/g/7NcAAOSw6upknpZY/s-l1600.webp"
+            ],
+            "rating": {
+              "stars": 4.0,
+              "reviews": 60
+            }
+          }
+    ]
+}
