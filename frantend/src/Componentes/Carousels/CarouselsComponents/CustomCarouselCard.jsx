@@ -2,7 +2,7 @@ import { Box, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 
 const CustomCarouselCard = ({product}) => {
-    const { id, name, brand, price, url } = product
+    const { id, name, price, url } = product
     console.log(product)
   return (
     <Box
@@ -14,7 +14,7 @@ const CustomCarouselCard = ({product}) => {
   >
 
     <Image src={url[0]} alt='product img' />
-    <Text>{name || brand}</Text>
+    <Text>{name}</Text>
     {/* <Text><b>${price}</b></Text> */}
     
   </Box>
