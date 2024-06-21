@@ -1,10 +1,8 @@
-import { Box, HStack, Image, Text, VStack } from "@chakra-ui/react";
-import React from "react";
-import LazyLoadingCard from "./LazyLoadingCard";
+import { Box, Image, Text, VStack } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 
-const CustomCarouselCard = ({ product }) => {
-  const { id, name, price, url } = product;
+const ProductCard = ({ product }) => {
+  const { id, name, price, url, shipping } = product;
   const navigat = useNavigate();
 
   const handleClick = () => {
@@ -12,33 +10,39 @@ const CustomCarouselCard = ({ product }) => {
   };
 
   return (
-    <Box
+    <VStack
       onClick={handleClick}
-      cursor='pointer'
-      // w={{base: "50%", md:"40%",lg:"5%"}}
-      w="full"
-      // h="100%"
+      cursor="pointer"
+      //   spacing={3}
+      //   boxShadow='xl'
+      fontSize="sm"
+      h="50vh"
+      alignItems="flex-start"
+      _hover={{ boxShadow: "md" }}
+      p={4}
+      //   w="full"
+      rounded="md"
       display="flex"
       flexDirection="column"
       justifyContent="space-between"
-      // bg={`hsl(${(id * 36) % 360}, 70%, 50%)`}
       transition="height 0.3s linear"
     >
-      <VStack w="full" h="50%" bg="#e5e5e5" rounded="xl">
+      <VStack w="full" h="50%" rounded="xl">
         <Image
           src={url[0]}
           alt="product img"
           h="full"
-          // w="70%"
           mx="auto"
+          rounded="md"
           objectFit="content"
         />
       </VStack>
       <Text>{name}</Text>
+      <Text>{shipping}</Text>
 
       <Text>${price}</Text>
-    </Box>
+    </VStack>
   );
 };
 
-export default CustomCarouselCard;
+export default ProductCard;

@@ -51,8 +51,8 @@ const Home = () => {
         />
         <Trending />
         <BannerCard
-          title="Growing your collection? We’ve got your back"
-          detels="You’re protected by the eBay Money Back Guarantee."
+          title="Growing your collection? We`ve got your back"
+          detels="You`re protected by the eBay Money Back Guarantee."
           bgcolor="#FBCE20"
           btnText="Shop collectibles"
           url="https://i.ebayimg.com/00/s/NTgxWDE2MDA=/z/KA0AAOSwKZhmQglh/$_57.PNG"
