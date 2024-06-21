@@ -5,16 +5,16 @@ import FadeIn from "./Buttons/FadeIn";
 const SpecialSummer = () => {
   return (
     <Flex
-      w="full"
+      w="97%"
       justifyContent="space-between "
       p={5}
-      mx={8}
+      m='auto'
       rounded="xl"
       className="bg-neutral_1"
     >
-      <Box cursor="pointer">
-        <Heading size="md">Feel special this summer with 15% off*</Heading>
-        <Text>
+      <Box cursor='pointer'>
+        <Heading  size="md">Feel special this summer with 15% off*</Heading>
+        <Text >
           Save on luxury jewelry, watches and handbags for you.|*Min. spend
           $300. Max. discount $100
         </Text>
