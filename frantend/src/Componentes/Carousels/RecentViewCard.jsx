@@ -1,16 +1,25 @@
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
-import { Box, Button, Flex, Heading, VStack } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  HStack,
+  Heading,
+  Spacer,
+  VStack,
+  textDecoration,
+} from "@chakra-ui/react";
 import axios from "axios";
 import { useEffect, useRef, useState } from "react";
 import "react-multi-carousel/lib/styles.css";
 import CustomCarouselCard from "./CarouselsComponents/CustomCarouselCard";
+import { Link, NavLink, Navigate, useNavigate } from "react-router-dom";
 
-const RecentViewCard = () => {
-
+const RecentViewCard = ({ resentView, sectionName }) => {
   const carouselRef = useRef(null);
   const [isLeftButtonDisabled, setIsLeftButtonDisabled] = useState(true);
   const [isRightButtonDisabled, setIsRightButtonDisabled] = useState(false);
-  const [resentView, setResentView] = useState([]);
+  const navigate = useNavigate();
 
   const scroll = (scrollOffset) => {
     if (carouselRef.current) {
@@ -27,38 +36,44 @@ const RecentViewCard = () => {
     }
   };
 
-  async function fetchData() {
-    try {
-      let res = await axios.get(
-        "https://ebay-com.onrender.com/recentlyViewedItems"
-      );
-      setResentView(res?.data);
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
   useEffect(() => {
-    fetchData();
-
     updateButtonState();
     // Attach the scroll event listener to update button states on scroll
     if (carouselRef.current) {
       carouselRef.current.addEventListener("scroll", updateButtonState);
     }
+
     return () => {
       if (carouselRef.current) {
         carouselRef.current.removeEventListener("scroll", updateButtonState);
       }
     };
   }, []);
- 
+
   return (
-    <VStack  w="90%" m=" 20px auto" spacing={8} alignItems='flex-start'>
-      <Heading as="h3" size="md" display='flex'  >
-      Your Recently Viewed Items
-      </Heading>
-      <Box position="relative" minH="45vh">
+    <VStack
+      // w="70%"
+      // m="auto"
+      px={2}
+      spacing={5}
+      alignItems="flex-start"
+      // maxH={{ base: "60vh", md: "55vh", lg: "50vh" }}
+      minH="50vh"
+    >
+      <Flex w="full" justifyContent="space-between">
+        <Heading as="h3" size="md" display="flex">
+          {sectionName}
+        </Heading>
+        <Spacer />
+        <Link to="/products" className="hover:underline decoration-solid ">
+          see all
+        </Link>
+      </Flex>
+      <Box
+        position="relative"
+        maxH="90%"
+        // maxH={{ base: "60vh", md: "55vh", lg: "50vh" }}
+      >
         <Button
           rounded="full"
           shadow="md"
@@ -88,11 +103,11 @@ const RecentViewCard = () => {
         <Box
           w="100%"
           h="100%"
-          overflowX="hidden"
+          overflowX="scroll"
           ref={carouselRef}
-          _hover={{ overflowX: "scroll" }}
-          css={{
+          _hover={{
             "&::-webkit-scrollbar": {
+              display: "inline-block",
               height: "8px",
             },
             "&::-webkit-scrollbar-track": {
@@ -108,6 +123,12 @@ const RecentViewCard = () => {
               background: "#555",
             },
           }}
+          css={{
+            "&::-webkit-scrollbar": {
+              display: "none",
+              // height: "8px",
+            },
+          }}
         >
           <Flex
             // w="200%"
@@ -117,9 +138,10 @@ const RecentViewCard = () => {
             position="relative"
             transition="all 0.5s ease-in-out "
           >
-            {resentView.map((ele) => (
-              <CustomCarouselCard key={ele.id} product={ele} />
-            ))}
+            {resentView &&
+              resentView?.map((ele) => (
+                <CustomCarouselCard key={ele.id} product={ele} />
+              ))}
           </Flex>
         </Box>
       </Box>

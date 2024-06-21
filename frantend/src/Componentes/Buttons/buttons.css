@@ -1,0 +1,47 @@
+.fill{
+  border: 1px solid #111;
+  padding: 8px 20px;
+  border-radius: 40px;
+  position: relative;
+  transition: all 0.3s linear;
+  z-index: 2;
+  overflow: hidden;
+}
+.fill::after{
+ content: "";
+ height: 50%;
+ width: 100%;
+ background-color: black;
+ position: absolute;
+ left: 0;
+ top: 0;
+ transform: translateY(-100%);
+ transition: all 0.3s linear;
+}
+
+.fill::before{
+ content: "";
+ height: 50%;
+ width: 100%;
+ background-color: black;
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ transform: translateY(100%);
+ transition: all 0.3s linear;
+}
+
+.fill:hover::after{
+  /* background-color: red; */
+  transform: translateY(0);
+  z-index: -1;
+}
+.fill:hover::before{
+  /* background-color: red; */
+  transform: translateY(0);
+  z-index: -1;
+}
+
+.fill:hover{
+  color: #fff;
+}

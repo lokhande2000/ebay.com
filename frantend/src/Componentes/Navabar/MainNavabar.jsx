@@ -16,16 +16,23 @@ import {
   Select,
   VStack,
 } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 const MainNavabar = () => {
+
+  const navigate = useNavigate()
+
+  const handleNavigate = ()=>{
+    navigate("/")
+  }
   return (
-    <VStack className="border-b-2" w="full">
+    <VStack  w="full" style={{borderBottom:"0.5px solid var(--color-neutral-2)"}}>>
       <HStack
         //    bg="tomato"
-        w="90%"
+        w="70%"
         p={2}
       >
         <Box>
-          <Heading fontWeight="700" letterSpacing="-3px">
+          <Heading cursor='pointer' onClick={handleNavigate} fontWeight="700" letterSpacing="-3px">
             <span className="text-red-600">e</span>
             <span className="text-blue-600">b</span>
             <span className="text-yellow-300">a</span>
@@ -52,7 +59,7 @@ const MainNavabar = () => {
         </HStack>
         {/* </HStack> */}
         <HStack>
-          <InputGroup w="50vw">
+          <InputGroup w="38vw">
             <InputLeftElement
               pointerEvents="none"
               color="gray.300"

@@ -5,8 +5,10 @@ import { NavLink } from "react-router-dom";
 
 const TopNavabar = () => {
   return (
-    <VStack py={1} fontSize="sm" className="border-b-2" w="full">
-      <Flex w="90%">
+    <VStack py={1} fontSize="sm"
+    //  className="border-b-2"
+     w="full" style={{borderBottom:"0.5px solid var(--color-neutral-2)"}}>
+      <Flex w="70%">
         <HStack spacing={2}>
           <NavLink style={{ color: "blue", textDecoration: "underline" }}>
             signin

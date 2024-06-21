@@ -41,7 +41,7 @@ const properties = {
 };
 const Carousel1 = () => {
   return (
-    <div  className='slidecontainer'>
+    <div  className='slidecontainer' style={{width:"70%"}}>
       <Slide {...properties}>
         {slideImages.map((slideImage, index) => (
           <div className='eachslide ' key={index}>

@@ -1,23 +1,15 @@
 import './App.css'
-import Carousel1 from './Componentes/Carousels/Carousel1'
-import CustomCarosel from './Componentes/Carousels/CustomCarosel'
 import Navabar from './Componentes/Navabar/Navabar'
-import DeashBoard from './Pages/DeashBoard'
-import Home from './Pages/Home'
+import Footer from './Pages/Footer'
 import AllRouts from './Routs/AllRouts'
 
 function App() {
 
   return (
-    <div className='w-full min-h-screen' >
-      {/* <UserRegistration/> */}
-      {/* <HookForm/> */}
+    <div className='w-full min-h-screen ' >
       <Navabar/>
       <AllRouts/>
-      {/* <DeashBoard/> */}
-      {/* <Carousel1/>
-      <CustomCarosel/> */}
-      {/* <Home/> */}
+      <Footer/>
     </div>
   )
 }

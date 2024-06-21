@@ -5,11 +5,11 @@ import { useNavigate } from "react-router-dom";
 
 const CustomCarouselCard = ({ product }) => {
   const { id, name, price, url } = product;
-  const navigat = useNavigate()
+  const navigat = useNavigate();
 
-  const handleClick = ()=>{
-    navigat(`/productView/${id}`)
-  }
+  const handleClick = () => {
+    navigat(`/productView/${id}`);
+  };
 
   return (
     <Box
@@ -28,9 +28,9 @@ const CustomCarouselCard = ({ product }) => {
           src={url[0]}
           alt="product img"
           h="full"
-          w="80%"
+          // w="70%"
           mx="auto"
-          objectFit="contain"
+          objectFit="content"
         />
       </VStack>
       <Text>{name}</Text>

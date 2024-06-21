@@ -7,7 +7,7 @@ const BottomNavabar = () => {
     <VStack py={1} fontSize="sm" w="full" >
       <Flex
         fontSize="xs"
-        w="90%"
+        w="70%"
         m="auto"
         alignItems="center"
         justify="space-between"

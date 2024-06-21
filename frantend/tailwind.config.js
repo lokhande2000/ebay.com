@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -77,7 +74,7 @@ export default {
         ai_solid_green_strong: "var(--color-ai-solid-green-strong)",
         ai_solid_green_subtle: "var(--color-ai-solid-green-subtle)",
         ai_solid_green_strong_dark: "var(--color-ai-solid-green-strong-dark)",
-        
+
         ai_solid_blue_strong: "var(--color-ai-solid-blue-strong)",
         ai_solid_blue_subtle: "var(--color-ai-solid-blue-subtle)",
         ai_solid_blue_strong_dark: "var(--color-ai-solid-blue-strong-dark)",
@@ -95,5 +92,4 @@ export default {
     },
   },
   plugins: [],
-}
-
+};
