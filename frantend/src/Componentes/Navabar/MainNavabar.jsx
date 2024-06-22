@@ -25,7 +25,7 @@ const MainNavabar = () => {
     navigate("/")
   }
   return (
-    <VStack  w="full" style={{borderBottom:"0.5px solid var(--color-neutral-2)"}}>>
+    <VStack  w="full" style={{borderBottom:"0.5px solid var(--color-neutral-2)"}}>
       <HStack
         //    bg="tomato"
         w="70%"

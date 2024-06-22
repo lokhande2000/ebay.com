@@ -4,19 +4,20 @@ import LazyLoadingCard from "./LazyLoadingCard";
 import { useNavigate } from "react-router-dom";
 
 const CustomCarouselCard = ({ product }) => {
-  const { id, name, price, url } = product;
+  // const { id, name, price, url } = product;
   const navigat = useNavigate();
 
   const handleClick = () => {
-    navigat(`/productView/${id}`);
+    navigat(`/productView/${product?.id}`);
   };
 
   return (
     <Box
       onClick={handleClick}
-      cursor='pointer'
+      cursor="pointer"
       // w={{base: "50%", md:"40%",lg:"5%"}}
       w="full"
+      pb={4}
       // h="100%"
       display="flex"
       flexDirection="column"
@@ -26,7 +27,7 @@ const CustomCarouselCard = ({ product }) => {
     >
       <VStack w="full" h="50%" bg="#e5e5e5" rounded="xl">
         <Image
-          src={url[0]}
+          src={product?.url[0]}
           alt="product img"
           h="full"
           // w="70%"
@@ -34,9 +35,9 @@ const CustomCarouselCard = ({ product }) => {
           objectFit="content"
         />
       </VStack>
-      <Text>{name}</Text>
+      <Text>{product?.name}</Text>
 
-      <Text>${price}</Text>
+      <Text fontWeight="bold">${product?.price}</Text>
     </Box>
   );
 };

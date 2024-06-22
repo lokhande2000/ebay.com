@@ -52,8 +52,6 @@ const RecentViewCard = ({ resentView, sectionName }) => {
 
   return (
     <VStack
-      // w="70%"
-      // m="auto"
       px={2}
       spacing={5}
       alignItems="flex-start"
@@ -77,6 +75,9 @@ const RecentViewCard = ({ resentView, sectionName }) => {
         <Button
           rounded="full"
           shadow="md"
+          bg="#fff"
+          p={0}
+          border="1px solid #999"
           position="absolute"
           left="-30px"
           top="50%"
@@ -90,6 +91,9 @@ const RecentViewCard = ({ resentView, sectionName }) => {
         <Button
           rounded="full"
           shadow="md"
+          bg="#fff"
+          p={0}
+          border="1px solid #999"
           position="absolute"
           right="-50px"
           top="50%"
@@ -108,33 +112,31 @@ const RecentViewCard = ({ resentView, sectionName }) => {
           _hover={{
             "&::-webkit-scrollbar": {
               display: "inline-block",
-              height: "8px",
             },
             "&::-webkit-scrollbar-track": {
               background: "#f1f1f1",
             },
             "&::-webkit-scrollbar-button": {
-              background: "#00a7e0",
+              background: "#555",
             },
             "&::-webkit-scrollbar-thumb": {
               background: "#888",
             },
             "&::-webkit-scrollbar-thumb:hover": {
-              background: "#555",
+              background: "#666",
             },
           }}
           css={{
             "&::-webkit-scrollbar": {
-              display: "none",
-              // height: "8px",
+              height: "8px",
+              overflow: "hidden",
             },
           }}
+          // scrollBehavior='smooth'
         >
           <Flex
-            // w="200%"
             gap={5}
             w={{ base: "500%", md: "400%", lg: "200%" }}
-            h="calc(100% - 8px)" // Adjust height to avoid scrollbar overlay
             position="relative"
             transition="all 0.5s ease-in-out "
           >

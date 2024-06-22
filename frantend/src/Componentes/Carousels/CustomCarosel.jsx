@@ -109,6 +109,7 @@ const CustomCarousel = () => {
         >
           <Flex
             // w="200%"
+            
             gap={5}
             w={{ base: "500%", md: "400%", lg: "200%" }}
             h="calc(100% - 8px)" // Adjust height to avoid scrollbar overlay

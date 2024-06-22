@@ -40,7 +40,7 @@ const ProductCard = ({ product }) => {
       <Text>{name}</Text>
       <Text>{shipping}</Text>
 
-      <Text>${price}</Text>
+      <Text fontWeight='bold'>${price}</Text>
     </VStack>
   );
 };
