@@ -26,7 +26,7 @@ const Home = () => {
   async function fetchProductsData() {
     try {
       let res = await axios.get("https://ebay-com.onrender.com/products");
-      let data = res?.data.filter((item) => item.id < 13);
+      let data = res?.data.filter((item) => item.id < 12);
       setProduct(data);
     } catch (error) {
       console.log(error);
