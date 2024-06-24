@@ -2,6 +2,7 @@ import React from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "../../Style/Carousel.css";
+import { Box } from "@chakra-ui/react";
 const slideImages = [
   // {
   //   url: "https://i.postimg.cc/HsCkCwDC/Capture.png",
@@ -41,7 +42,7 @@ const properties = {
 };
 const Carousel1 = () => {
   return (
-    <div  className='slidecontainer' style={{width:"70%"}}>
+    <Box  className='slidecontainer' w='100%'>
       <Slide {...properties}>
         {slideImages.map((slideImage, index) => (
           <div className='eachslide ' key={index}>
@@ -53,7 +54,7 @@ const Carousel1 = () => {
           </div>
         ))}
       </Slide>
-    </div>
+    </Box>
   );
 };
 

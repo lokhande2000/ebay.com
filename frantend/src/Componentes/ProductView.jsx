@@ -14,36 +14,72 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 
 const ProductView = () => {
+  const [viewImageIndex, setViewImageIndex] = useState(0);
   const [color, setColor] = useState("");
   const [size, setSize] = useState("");
   const [quantity, setQuantity] = useState(1);
-  const {id} = useParams()
-  const [singleProduct, setSingleProduct] = useState({})
+  const { id } = useParams();
+  const [singleProduct, setSingleProduct] = useState({});
 
-  const fetchSingleProduct = async ()=> {
+  const fetchSingleProduct = async () => {
     try {
-      let res = await axios.get(`https://ebay-com.onrender.com/products/${id}`)
-      setSingleProduct(res.data)
+      let res = await axios.get(`https://ebay-com.onrender.com/products/${id}`);
+      setSingleProduct(res.data);
     } catch (error) {
       console.log(error);
     }
-  }
+  };
 
   const { name, price, url } = singleProduct;
 
-  console.log(singleProduct)
-  useEffect(()=>{
-    fetchSingleProduct()
-  },[])
+  console.log(singleProduct);
+  useEffect(() => {
+    fetchSingleProduct();
+  }, []);
   return (
-    <Box p={5}>
-      <Flex direction={{ base: "column", md: "row" }} maxW="1200px" mx="auto">
-        <Box flex="1">
-        { url &&  <Image src={url[0]} alt="Product" /> }
-          {/* Add other image thumbnails here */}
-        </Box>
-        <VStack flex="1" align="start" spacing={4} p={5}>
-          <Text fontSize="2xl" fontWeight="bold">
+    <Box p={5} h="80vh">
+      <Flex
+        h="full"
+        direction={{ base: "column", md: "row" }}
+        w="80%"
+        mx="auto"
+        bg="red"
+      >
+        <HStack flex="1.5" h="full" spacing={2}>
+          <VStack overflowY="scroll" h="full" justifyContent='space-between'>
+            {url &&
+              url?.map((img, i) => (
+                <Image
+                  onMouseEnter={()=>{
+                    setViewImageIndex(i)
+                  }}
+                  onClick={() => {
+                    setViewImageIndex(i);
+                  }}
+                  key={i}
+                  w="94px"
+                  h="94px"
+                  objectFit="contain"
+                  src={img}
+                  alt="Product"
+                />
+              ))}
+          </VStack>
+          <VStack h="100%">
+            {url && (
+              <Image
+                h="full"
+                w="full"
+                objectFit="contain"
+                src={url[viewImageIndex]}
+                alt="Product"
+              />
+            )}
+          </VStack>
+        </HStack>
+
+        <VStack h="full" flex="1" align="start" p={5}>
+          <Text fontSize="lg" fontWeight="bold">
             {name}
           </Text>
           <Badge colorScheme="red">15% OFF</Badge>

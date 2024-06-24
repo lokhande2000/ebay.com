@@ -6,7 +6,7 @@ import AllRouts from './Routs/AllRouts'
 function App() {
 
   return (
-    <div className='w-full min-h-screen ' >
+    <div className='w-full min-h-screen' >
       <Navabar/>
       <AllRouts/>
       <Footer/>

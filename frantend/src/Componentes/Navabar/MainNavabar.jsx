@@ -16,23 +16,81 @@ import {
   Select,
   VStack,
 } from "@chakra-ui/react";
+import axios from "axios";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+
+const useDebounce = (value, delay) => {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [value, delay]);
+  return debouncedValue;
+};
+
 const MainNavabar = () => {
+  const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState("");
+  const [isTrue, setIsTrue] = useState(false);
+  const [cross, setCross] = useState(false);
+  const debouncedInputValue = useDebounce(searchTerm, 500);
+  const [data, setData] = useState([]);
+  const handleNavigation = useNavigate(" ");
 
-  const navigate = useNavigate()
+  const fetchingSearchedData = async () => {
+    try {
+      const response = await axios.get(
+        `https://ebay-com.onrender.com/products?q=${searchTerm}`
+      );
+      setData(response.data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
-  const handleNavigate = ()=>{
-    navigate("/")
-  }
+  console.log(data)
+
+  const handleSearchNavigation = (id) => {
+    handleNavigation(`/products/${id}`);
+    setIsTrue(false);
+    setCross(true);
+  };
+
+  useEffect(() => {
+    if (debouncedInputValue && searchTerm?.length) {
+      fetchingSearchedData();
+    }
+
+    if (searchTerm === "") {
+      setIsTrue(false);
+    }
+  }, [debouncedInputValue]);
+
+  const handleNavigate = () => {
+    navigate("/");
+  };
   return (
-    <VStack  w="full" style={{borderBottom:"0.5px solid var(--color-neutral-2)"}}>
+    <VStack
+      w="full"
+      style={{ borderBottom: "0.5px solid var(--color-neutral-2)" }}
+    >
       <HStack
         //    bg="tomato"
         w="70%"
         p={2}
       >
         <Box>
-          <Heading cursor='pointer' onClick={handleNavigate} fontWeight="700" letterSpacing="-3px">
+          <Heading
+            cursor="pointer"
+            onClick={handleNavigate}
+            fontWeight="700"
+            letterSpacing="-3px"
+          >
             <span className="text-red-600">e</span>
             <span className="text-blue-600">b</span>
             <span className="text-yellow-300">a</span>
@@ -57,7 +115,7 @@ const MainNavabar = () => {
             </MenuList>
           </Menu>
         </HStack>
-        {/* </HStack> */}
+
         <HStack>
           <InputGroup w="38vw">
             <InputLeftElement
@@ -72,6 +130,12 @@ const MainNavabar = () => {
               focusBorderColor="black.500"
               rounded={0}
               borderColor="#000"
+              value={searchTerm}
+              onChange={(e) => {
+                setSearchTerm(e.target.value);
+                setIsTrue(true);
+                setCross(true);
+              }}
             />
             <InputRightElement
               w="20%"

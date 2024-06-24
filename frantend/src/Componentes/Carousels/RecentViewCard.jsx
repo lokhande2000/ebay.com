@@ -56,7 +56,8 @@ const RecentViewCard = ({ resentView, sectionName }) => {
       spacing={5}
       alignItems="flex-start"
       // maxH={{ base: "60vh", md: "55vh", lg: "50vh" }}
-      minH="50vh"
+      // minH="50vh"
+      w={{base:'80%', md: "80%", lg:'full'}}
     >
       <Flex w="full" justifyContent="space-between">
         <Heading as="h3" size="md" display="flex">
@@ -70,6 +71,7 @@ const RecentViewCard = ({ resentView, sectionName }) => {
       <Box
         position="relative"
         maxH="90%"
+        mx={8}
         // maxH={{ base: "60vh", md: "55vh", lg: "50vh" }}
       >
         <Button

@@ -2,11 +2,11 @@ import { Box, HStack, Heading, Image, Text, VStack } from "@chakra-ui/react";
 
 const Trending = () => {
   return (
-    <VStack spacing={5} alignItems="flex-start">
+    <VStack spacing={5} alignItems="flex-start" >
       <Heading as="h3" size="md">
         Trending on eBay
       </Heading>
-      <HStack>
+      <HStack flexWrap={{base:'wrap', md:'wrap', lg:'nowrap'}}>
         <Box _hover={{ textDecoration: "underline", cursor: "pointer" }}>
           <VStack>
             <Image

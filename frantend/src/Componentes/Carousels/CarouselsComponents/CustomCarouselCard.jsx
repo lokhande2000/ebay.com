@@ -27,12 +27,12 @@ const CustomCarouselCard = ({ product }) => {
     >
       <VStack w="full" h="50%" bg="#e5e5e5" rounded="xl">
         <Image
+         h="full"
+          mx={{base:0, md:0, lg:"auto"}}
+          objectFit="content"
           src={product?.url[0]}
           alt="product img"
-          h="full"
-          // w="70%"
-          mx="auto"
-          objectFit="content"
+         
         />
       </VStack>
       <Text>{product?.name}</Text>
